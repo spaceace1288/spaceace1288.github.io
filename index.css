@@ -46,7 +46,9 @@ body {
 .pikachu  {
   background-color: #cccc00;
   margin-bottom:200px;
-
+  max-width:250px;
+  max-height:250px;
+  
 
 }
 .charizard  {
