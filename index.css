@@ -16,10 +16,10 @@
 }
 #ChrisESmith  {
   /*max-width:250px;*/
-  max-width:inherit;
-  max-height:inherit;
-  height:inherit;
-  width:inherit;
+  max-width:250px;
+  max-height:250px;
+  height:250px;
+  width:250px;
 }
 
 
