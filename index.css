@@ -58,6 +58,8 @@ body {
   background-color: #cccc00;
   margin-bottom:200px;
   background: url(images/GMSSplash.jpg) no-repeat center fixed;
+  padding: 0.5em; float: left; margin: 10px 10px 10px 10px;
+  position:relative;
   /*background-size: cover;*/
   /*max-width:250px;
   max-height:250px;*/
