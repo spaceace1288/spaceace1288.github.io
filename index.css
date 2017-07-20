@@ -49,9 +49,16 @@ body {
   background: rgba(51, 204, 204, 0.5);*/
 }
 
+.note {
+  background-color:aqua;
+  position: relative;
+}
+
 .pikachu  {
   background-color: #cccc00;
   margin-bottom:200px;
+  background: url(images/GMSSplash.jpg) no-repeat center fixed;
+  /*background-size: cover;*/
   /*max-width:250px;
   max-height:250px;*/
 
