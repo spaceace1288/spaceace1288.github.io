@@ -7,7 +7,7 @@
   min-height:2400px;
   max-height: 99999px;
   min-width:355px;
-
+  /*overflow:auto;*/
 
 }
 #divider  {
@@ -39,13 +39,13 @@ div div {
   height:300px; /*If this was min height, it would cause the text to be displayed inside.*/
   /*border: 3px solid black;*/
   /*border: 6px solid black;*/
-  border: none solid black;
+  /*border: none solid black;
   float:left;
 
   padding-bottom:0px;
   margin-bottom:0px;
   position: static;
-}
+*/}
 body {
   margin-left:30px;
   margin-top:60px;
@@ -64,8 +64,26 @@ body {
   background-color:aqua;
   position: relative;
 }
+.description  {
+  overflow: auto;
+  height: 200px;
+}
 
 .pikachu  {
+  margin:20px;
+  padding:15px;
+  max-width:300px;
+  height:300px; /*If this was min height, it would cause the text to be displayed inside.*/
+  /*border: 3px solid black;*/
+  /*border: 6px solid black;*/
+  border: none solid black;
+  float:left;
+
+  padding-bottom:0px;
+  margin-bottom:0px;
+  position: static;
+
+
   background-color: #cccc00;
   margin-bottom:200px;
   background: url(images/GMSSplash.jpg) no-repeat center fixed;
@@ -99,10 +117,20 @@ body {
   position:static;
 }
 
-div div div {
+.Img  {
   border:none;
   position:static;
+
 }
+.sub-games  {
+  width:auto;
+  min-height:1000px;
+}
+
+/*div div div {
+  border:none;
+  position:static;
+}*/
 html {
     background: url(images/clouds_epic.jpeg) no-repeat center fixed;
     background-size: cover;
