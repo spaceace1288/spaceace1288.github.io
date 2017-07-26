@@ -22,13 +22,24 @@
   width:250px;
 }
 
+#DynamicTDImg  {
+  /*max-width:250px;*/
+  max-width:250px;
+  max-height:250px;
+  height:250px;
+  width:250px;
+}
+
+
 
 div div {
   margin:20px;
   padding:15px;
   max-width:300px;
   height:300px; /*If this was min height, it would cause the text to be displayed inside.*/
-  border: 3px solid black;
+  /*border: 3px solid black;*/
+  /*border: 6px solid black;*/
+  border: none solid black;
   float:left;
 
   padding-bottom:0px;
