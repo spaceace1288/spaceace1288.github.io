@@ -7,7 +7,7 @@
   min-height:2400px;
   max-height: 99999px;
   min-width:355px;
-  /*overflow:auto;*/
+
 
 }
 #divider  {
@@ -22,43 +22,19 @@
   width:250px;
 }
 
-#DynamicTDImg  {
-  /*max-width:250px;*/
-  max-width:250px;
-  max-height:250px;
-  height:250px;
-  width:250px;
-}
-#ChrisESmith  {
-  /*max-width:250px;*/
-  max-width:250px;
-  max-height:250px;
-  height:250px;
-  width:250px;
-}
-#DynamicUnrebornImg  {
-  /*max-width:250px;*/
-  max-width:250px;
-  max-height:250px;
-  height:250px;
-  width:250px;
-}
-
 
 div div {
   margin:20px;
   padding:15px;
   max-width:300px;
   height:300px; /*If this was min height, it would cause the text to be displayed inside.*/
-  /*border: 3px solid black;*/
-  /*border: 6px solid black;*/
-  /*border: none solid black;
+  border: 3px solid black;
   float:left;
 
   padding-bottom:0px;
   margin-bottom:0px;
   position: static;
-*/}
+}
 body {
   margin-left:30px;
   margin-top:60px;
@@ -77,26 +53,8 @@ body {
   background-color:aqua;
   position: relative;
 }
-.description  {
-  overflow: auto;
-  height: 200px;
-}
 
 .pikachu  {
-  margin:20px;
-  padding:15px;
-  max-width:300px;
-  height:300px; /*If this was min height, it would cause the text to be displayed inside.*/
-  /*border: 3px solid black;*/
-  /*border: 6px solid black;*/
-  border: none solid black;
-  float:left;
-
-  padding-bottom:0px;
-  margin-bottom:0px;
-  position: static;
-
-
   background-color: #cccc00;
   margin-bottom:200px;
   background: url(images/GMSSplash.jpg) no-repeat center fixed;
@@ -130,24 +88,10 @@ body {
   position:static;
 }
 
-.Img  {
+div div div {
   border:none;
   position:static;
-
 }
-.section  {
-  margin-top: 1000px;
-  text-align:center;
-}
-.sub-games  {
-  width:auto;
-  min-height:1000px;
-}
-
-/*div div div {
-  border:none;
-  position:static;
-}*/
 html {
     background: url(images/clouds_epic.jpeg) no-repeat center fixed;
     background-size: cover;
