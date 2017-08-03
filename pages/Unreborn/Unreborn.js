@@ -12,6 +12,7 @@ $(document).ready(function(){
 //   $(".pikachu").draggable({containment: document})
 // } );
   $(".pikachu").draggable({containment:"#background1"})
+  $(".mechanics").draggable({containment:"#background1"})
   var TDImgs = ["images/Unreborn TD Screen.PNG", "images/Unreborn TD Screen2Shop.PNG", "images/Unreborn TD Screen3World.PNG"]
   var TDImg = 0;
 
