@@ -66,7 +66,7 @@ body {
 }
 .description  {
   overflow: auto;
-  height: 200px;
+  max-height: 200px;
 }
 
 .pikachu  {
@@ -126,7 +126,86 @@ body {
   width:auto;
   min-height:1000px;
 }
+.section  {
+  margin-top: 1000px;
+  text-align:center;
+}
+.mechanics  {
+  margin:20px;
+  padding:15px;
+  max-width:300px;
+  height:300px; /*If this was min height, it would cause the text to be displayed inside.*/
+  /*border: 3px solid black;*/
+  /*border: 6px solid black;*/
+  border: none solid black;
+  float:left;
 
+  padding-bottom:0px;
+  margin-bottom:0px;
+  position: static;
+
+
+  background-color: #cccc00;
+  margin-bottom:200px;
+  background: url(images/GMSSplash.jpg) no-repeat center fixed;
+  padding: 0.5em; float: left; margin: 10px 10px 10px 10px;
+  position:relative;
+  /*background-size: cover;*/
+  /*max-width:250px;
+  max-height:250px;*/
+  /* We first create a flex layout context */
+  /*display: flex;*/
+
+  /* Then we define the flow direction and if we allow the items to wrap
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  /*flex-flow: row wrap;*/
+
+  /* Then we define how is distributed the remaining space */
+  /*justify-content: space-around;*/
+/*background: tomato;*/
+
+
+  /*line-height: 150px;*/
+  /*font-weight: bold;
+  font-size: 3em;
+  text-align: center;*/
+
+}
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction and if we allow the items to wrap
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flex-item  {
+padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+}
 /*div div div {
   border:none;
   position:static;
