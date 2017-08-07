@@ -80,6 +80,13 @@ body {
 .description  {
   overflow: auto;
   max-height: 200px;
+
+}
+
+.description2 {
+  overflow: auto;
+  max-height: 200px;
+  text-align: center;
 }
 
 .pikachu  {
